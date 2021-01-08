@@ -1,0 +1,33 @@
+h2{
+color:black     
+}
+.menu{
+/*background: skyblue;*/
+}
+.header{
+text-align: center;
+justify-content: space-evenly;   
+/*background-image:linear-gradient(to right,red,orange,yellow); */ 
+}
+.grid{
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-evenly;   
+}
+.footer{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;  
+}
+p,h2{
+text-align: center;  
+}
+.footer img{
+border-radius: 25px;   
+}
+body{
+background-image: url("Icons/bg.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+}
